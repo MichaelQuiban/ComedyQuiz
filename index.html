@@ -3,16 +3,27 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Comedy Quiz</title>
-	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+<!-- 
+Forgive my large amount of dividers, I will optimize this in the future.
+Currently we have a <div> for all of the content for the jQuery hide method.
+Then we have another <div> for the unique header on the starter page.
+-->
 
-		<header>Do you know hilarious Comedy quotes?</header>
+<div class = "presentationBegin"
+		<div id="horribleHeader">
+		<header>Do you know Hilarious Comedy quotes?</header>
+		</div>
 	<div class = "beginContainer">
-		<button type="submit">Begin</button>
-		<p class = "contentText">"it's that damn Handsel! He's so hot right now!"</p><br>
-		<p>Zoolander</p>
+		<div class = "beginContent">
+			<button type="submit" id ="beginSubmit">Begin</button>
+			<p class = "beginQuote">“Moisture is the essence of wetness, and wetness is the essence of beauty.” - <a href="https://www.youtube.com/watch?v=QXsKHjX3Y6g" target="_blank">Zoolander</a>
+			</p>
+		</div>
 	</div>
+</div>
 
 <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/app.js" type="text/javascript" charset="utf-8"></script>

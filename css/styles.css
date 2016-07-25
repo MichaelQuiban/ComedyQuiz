@@ -1,0 +1,80 @@
+/*
+Universal Color Schemes
+*/
+body{
+	background-color:#333333;
+}
+
+/*
+First page styling and content.
+Naming every first sequence of classes and ID's the same is probably bad practice.
+*/
+
+#horribleHeader{
+	font-size:3.5em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:200;
+	color: #e3e0cf;
+	line-height:9em;
+	position:relative;
+	left:8em;
+
+}
+.begincontainer{
+	height:10em;
+	position:relative;
+	line-height:2em;
+}
+.beginContent{
+	margin:0;
+	position:absolute;
+	top:35%;
+	right:50%;
+}
+
+/* 
+I had lots of fun with this button.
+*/
+#beginSubmit{
+	background:none;
+	font-size:1em;
+	width:200px;
+	height:50px;
+	letter-spacing:0.9px;
+	font-weight:200;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease 0s;
+	color: #e3e0cf;
+	border-color: #9fa8a3;
+	position:relative;
+	left:48em;
+	top:3.5em;
+
+
+}
+#beginSubmit:hover{
+	color: #e3e0cf;
+	font-weight:200;
+	box-shadow: 0px 15px 20px rgba(18, 13, 20, 0.3);
+	transform: translateY(-7px);
+}
+#beginSubmit:focus{
+	outline:0;
+}
+
+/*
+Button styling over.
+*/
+
+.beginQuote{
+	font-family: 'Open Sans', sans-serif;
+	font-size:2em;
+	color:#e3e0cf;
+	position:relative;
+	left:14em;
+	top:5em;
+}
+
+/* 
+End of first page styling.
+*/
