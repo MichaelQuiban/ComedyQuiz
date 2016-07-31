@@ -4,27 +4,82 @@
 	<meta charset="UTF-8">
 	<title>Comedy Quiz</title>
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/misc.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
-<!-- 
-Forgive my large amount of dividers, I will optimize this in the future.
-Currently we have a <div> for all of the content for the jQuery hide method.
-Then we have another <div> for the unique header on the starter page.
--->
-
-<div class = "presentationBegin"
-		<div id="horribleHeader">
-		<header>Do you know Hilarious Comedy quotes?</header>
-		</div>
-	<div class = "beginContainer">
-		<div class = "beginContent">
-			<button type="submit" id ="beginSubmit">Begin</button>
-			<p class = "beginQuote">“Moisture is the essence of wetness, and wetness is the essence of beauty.” - <a href="https://www.youtube.com/watch?v=QXsKHjX3Y6g" target="_blank">Zoolander</a>
-			</p>
-		</div>
-	</div>
+<div id = "universalContainer">
+	<section id = "contentSection">
+			<div id = "beginContainer">
+				<h1 id = "beginHeader">Test your skills!</h1>
+				<h2 id = "beginSecond">Do you know your favorite comedy quotes?</h2>
+					<button type="submit" id="beginBtn">Begin</button>
+					<p id = "quoteText">"NO GOD, NO GOD PLEASE NO, NO! NO! NOOOOOOO!"<br> 
+					-The <a href ="https://www.youtube.com/watch?v=umDr0mPuyQc" target="_blank">Office</a>.</p>
+			</div>
+			<div id = "secondContainer">
+			<h1 id = "beginHeader">Question 1, Who said?:</h1>
+			<h2 id = "beginSecond">“I’m sorry that good-looking people like us made you throw up and feel bad about yourself.”</h2>
+			<form action="" id = "quiz-area">
+				  	<input id ="submit-movie" type="radio" name="movies" value="quotes"> Shrek <br>
+				  	<input id ="submit-movie" type="radio" name="movies" value="quotes"> Zoolander<br>
+					<input id ="submit-movie" type="radio" name="movies" value="quotes"> Bringing Down the house<br>
+					<input id ="submit-movie" type="radio" name="movies" value="quotes"> Boy Meets World <br>
+					<input id ="submit-answer" type="submit" value="submit"><br>
+					<p id = "question-counter">1/5</p>
+				</form>
+			</div>
+			<div id = "thirdContainer">
+			<h1 id = "beginHeader">Question 2, Who said?:</h1>
+			<h2 id = "beginSecond">“I’m sorry that good-looking people like us made you throw up and feel bad about yourself.”</h2>
+			<form action="" id = "quiz-area">
+				  	<input id ="submit-movie" type="radio" name="movies" value="quotes"> Toy Story <br>
+				  	<input id ="submit-movie" type="radio" name="movies" value="quotes"> Avatar<br>
+					<input id ="submit-movie" type="radio" name="movies" value="quotes"> The Matrix<br>
+					<input id ="submit-movie" type="radio" name="movies" value="quotes"> Zoolander <br>
+					<input id ="submit-answer" type="submit" value="submit"><br>
+					<p id = "question-counter">2/5</p>
+				</form>
+			</div>
+			<div id = "fourthContainer">
+			<h1 id = "beginHeader">Question 3, Who said?:</h1>
+			<h2 id = "beginSecond">“I’m sorry that good-looking people like us made you throw up and feel bad about yourself.”</h2>
+			<form action="" id = "quiz-area">
+				  	<input id ="submit-movie" type="radio" name="movies" value="quotes"> Toy Story <br>
+				  	<input id ="submit-movie" type="radio" name="movies" value="quotes"> Avatar<br>
+					<input id ="submit-movie" type="radio" name="movies" value="quotes"> The Matrix<br>
+					<input id ="submit-movie" type="radio" name="movies" value="quotes"> Zoolander <br>
+					<input id ="submit-answer" type="submit" value="submit"><br>
+					<p id = "question-counter">3/5</p>
+				</form>
+			</div>
+			<div id = "fifthContainer">
+			<h1 id = "beginHeader">Question 4, Who said?:</h1>
+			<h2 id = "beginSecond">“I’m sorry that good-looking people like us made you throw up and feel bad about yourself.”</h2>
+			<form action="" id = "quiz-area">
+				  	<input id ="submit-movie" type="radio" name="movies" value="quotes"> Toy Story <br>
+				  	<input id ="submit-movie" type="radio" name="movies" value="quotes"> Avatar<br>
+					<input id ="submit-movie" type="radio" name="movies" value="quotes"> The Matrix<br>
+					<input id ="submit-movie" type="radio" name="movies" value="quotes"> Zoolander <br>
+					<input id ="submit-answer" type="submit" value="submit"><br>
+					<p id = "question-counter">4/5</p>
+				</form>
+			</div>
+			<div id = "sixthContainer">
+			<h1 id = "beginHeader">Question 5, Who said?:</h1>
+			<h2 id = "beginSecond">“I’m sorry that good-looking people like us made you throw up and feel bad about yourself.”</h2>
+			<form action="" id = "quiz-area">
+				  	<input id ="submit-movie" type="radio" name="movies" value="quotes"> Toy Story <br>
+				  	<input id ="submit-movie" type="radio" name="movies" value="quotes"> Avatar<br>
+					<input id ="submit-movie" type="radio" name="movies" value="quotes"> The Matrix<br>
+					<input id ="submit-movie" type="radio" name="movies" value="quotes"> Zoolander <br>
+					<input id ="submit-answer" type="submit" value="submit"><br>
+					<p id = "question-counter">5/5</p>
+				</form>
+			</div>
+	</section>
 </div>
-
 <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/app.js" type="text/javascript" charset="utf-8"></script>
 </body>

@@ -1,80 +1,72 @@
-/*
-Universal Color Schemes
-*/
-body{
-	background-color:#333333;
+/*Quiz Conntent First Page */
+#contentSection{
+	width:50%;
+	height:50em;
+	background-color:#e3e0cf;
+	margin:auto;
+	padding:2px;
+	border-style:solid;
+	border-color:#FFF;
+	border-width:1.5px;
+	box-shadow: 10px 10px 5px #888888;
 }
 
-/*
-First page styling and content.
-Naming every first sequence of classes and ID's the same is probably bad practice.
-*/
-
-#horribleHeader{
-	font-size:3.5em;
-	font-family: 'Open Sans', sans-serif;
-	font-weight:200;
-	color: #e3e0cf;
-	line-height:9em;
+#beginHeader{
+	color:#000;
+	margin:auto;
+	font-size:5em;
+	letter-spacing:8px;
+	text-align:center;	
+	margin-top:1em;
 	position:relative;
-	left:8em;
-
 }
-.begincontainer{
-	height:10em;
-	position:relative;
-	line-height:2em;
-}
-.beginContent{
-	margin:0;
-	position:absolute;
-	top:35%;
-	right:50%;
+#beginSecond{
+	margin:auto;
+	color:#000;
+	text-align:center;	
 }
 
-/* 
-I had lots of fun with this button.
-*/
-#beginSubmit{
+#beginBtn{
 	background:none;
-	font-size:1em;
-	width:200px;
-	height:50px;
-	letter-spacing:0.9px;
-	font-weight:200;
-	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-	transition: all 0.3s ease 0s;
-	color: #e3e0cf;
-	border-color: #9fa8a3;
+	width: 190px;  
+	height: 50px;
+	color: #FFF;
+	background: #333;   
+	font: bold 17px/50px Arial;
+	letter-spacing:1px;
+	text-decoration: none;
+	text-transform: uppercase;
 	position:relative;
-	left:48em;
-	top:3.5em;
-
-
-}
-#beginSubmit:hover{
-	color: #e3e0cf;
-	font-weight:200;
-	box-shadow: 0px 15px 20px rgba(18, 13, 20, 0.3);
-	transform: translateY(-7px);
-}
-#beginSubmit:focus{
-	outline:0;
+	margin-top:16%;
+	text-align:center;
 }
 
-/*
-Button styling over.
-*/
-
-.beginQuote{
-	font-family: 'Open Sans', sans-serif;
+#quoteText{
+	margin-top:20%;
+	font-weight:bold;
+	text-align:center;
 	font-size:2em;
-	color:#e3e0cf;
-	position:relative;
-	left:14em;
-	top:5em;
 }
 
-/* 
-End of first page styling.
-*/
+/*Quiz Content Second Page */
+#quiz-area{
+	position:relative;
+	margin-top:4em;
+	margin-right:8em;
+	margin-left:4em;
+	font-size:2em;
+}
+
+#submit-answer{
+	position:relative;
+	margin-left:15em;
+	margin-top:5em;
+	width: 190px;  
+	height: 50px;
+	letter-spacing: 5px;
+	font: bold 17px/50px Arial;
+	color:#FFF;
+	background:#333;
+	text-decoration: none;
+	text-transform: uppercase;
+}

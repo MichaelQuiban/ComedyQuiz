@@ -1,0 +1,18 @@
+/*
+Universal Color Schemes
+*/
+body{
+	background-color:#9fa8a3;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+/*applies the same positioning on all pages */
+#beginContainer{
+	text-align:center;
+	position:relative;
+	margin-top:6em;
+}
+#question-counter{
+	position:relative;
+	margin-left:24em;
+	margin-top:3em;
+}
