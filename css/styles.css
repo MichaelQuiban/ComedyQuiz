@@ -11,7 +11,7 @@
 	box-shadow: 10px 10px 5px #888888;
 }
 
-#beginHeader{
+#Header{
 	color:#000;
 	margin:auto;
 	font-size:5em;
@@ -20,7 +20,7 @@
 	margin-top:1em;
 	position:relative;
 }
-#beginSecond{
+#Second{
 	margin:auto;
 	color:#000;
 	text-align:center;	
@@ -57,10 +57,10 @@
 	font-size:2em;
 }
 
-#submit-answer{
+#submitBtn{
 	position:relative;
-	margin-left:15em;
-	margin-top:5em;
+	margin-left:22em;
+	margin-top:7em;
 	width: 190px;  
 	height: 50px;
 	letter-spacing: 5px;
